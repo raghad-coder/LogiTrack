@@ -5,7 +5,7 @@ export type ShipmentStatus = 'Pending' | 'In Transit' | 'Delivered' | 'Cancelled
 export interface LocationCoordinates {
   lat: number;
   lng: number;
-  address: string;
+  address?: string;
 }
 
 export interface Shipment {
